@@ -1,0 +1,8 @@
+//https://www.codewars.com/users/Kseniia%20Sydorenko/completed
+
+if..else and ternary ope
+
+
+function saleHotdogs(n){
+  return (n<5)?n*100:(n>=5&&n<10)?n*95:n*90;
+}
