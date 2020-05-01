@@ -1,0 +1,14 @@
+power of 3 
+https://www.codewars.com/kata/57be674b93687de78c0001d9
+
+function largestPower(n){
+if (n<=1){ return -1;}
+else {
+  let k = 3;
+  let s = 0;
+  while(k<n){
+    s++;
+    k = 3*k;
+  }
+    return s;
+}}
