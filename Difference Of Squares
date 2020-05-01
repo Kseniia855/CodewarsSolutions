@@ -1,0 +1,12 @@
+Difference Of Squares
+https://www.codewars.com/users/Kseniia%20Sydorenko/completed
+
+function differenceOfSquares(n){
+let a = 0;
+let b = 0;
+for(let i=1; i<=n; i++){
+  a = a + i;
+  b = b + i*i;
+}
+return a*a - b;
+}
