@@ -1,0 +1,12 @@
+The wheat/rice and chessboard problem
+https://www.codewars.com/users/Kseniia%20Sydorenko/completed
+
+function squaresNeeded(grains){
+let k = 0;
+let s = 1;
+while(s<=grains ){
+s = s*2;
+k++
+}
+return k;
+}
