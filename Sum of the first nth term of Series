@@ -1,0 +1,13 @@
+Sum of the first nth term of Series
+https://www.codewars.com/users/Kseniia%20Sydorenko/completed
+function SeriesSum(n){
+let a = 1;
+let sum = 0;
+let b = 0;
+for(i = 1; i<=n; i++){
+b = 1 /a;
+sum = sum+b;
+a = a+3;
+}
+ return (Math.round(sum*100)/100).toFixed(2);
+}
