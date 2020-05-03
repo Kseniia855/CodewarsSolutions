@@ -1,0 +1,40 @@
+Walk-up Stairs
+
+https://www.codewars.com/users/Kseniia%20Sydorenko/completed
+
+function stairs(n){
+  let str = ''; 
+  let temp;
+  for(let i = 1; i<=n; i++){
+    for (let j = 0; j<=2*(n-i)-1;j++){
+      str = str + '  ';
+    }
+    temp = formString(i);
+    str = str + temp;
+    str = str + ' ' + reverse(temp);
+    if(i!==n){
+      str = str + '\n';
+    }
+    
+  }
+  return str;
+}
+
+function reverse(str){
+  let mystr = '';
+  for(let i = str.length-1; i>=0; i--){
+    mystr = mystr + str[i];
+  }
+  return mystr;
+}
+
+function formString(n){
+  let str = '';
+  for(let i = 1; i <= n; i++){
+    str = str + i%10;
+    if (i!==n) {
+      str = str + ' ';
+    }
+  }
+  return str;
+}
