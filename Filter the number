@@ -1,0 +1,11 @@
+Filter the number
+
+https://www.codewars.com/users/Kseniia%20Sydorenko/completed
+
+var FilterString = function(value) {
+let str = '';
+  for(let i = 0; i<=value.length-1;i++ ){
+    str = (Number.isNaN(Number(value[i])))?str:str+value[i];
+  }
+  return Number(str);
+}
