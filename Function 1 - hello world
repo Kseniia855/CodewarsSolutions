@@ -1,0 +1,6 @@
+Function 1 - hello world
+https://www.codewars.com/users/Kseniia%20Sydorenko/completed
+
+function greet (){
+   return 'hello world!';
+}
