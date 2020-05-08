@@ -1,0 +1,12 @@
+Multiply
+
+https://www.codewars.com/users/Kseniia%20Sydorenko/completed_
+
+
+function multiply(a, b){
+ return  a * b;
+}
+last monthRefactor
+function multiply(a, b){
+  return a * b;
+}
