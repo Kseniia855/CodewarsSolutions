@@ -1,0 +1,16 @@
+Find the odd int
+
+https://www.codewars.com/users/Kseniia%20Sydorenko/completed
+
+function findOdd(A) {
+ let k;
+ for(let i = 0; i<=A.length-1;i++){
+   k=0;
+   for(let j=0;j<=A.length-1;j++){
+     if(A[i]===A[j]){
+     k++;}
+   }
+   if(k%2!==0){
+   return A[i];}
+ }
+}
