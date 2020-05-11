@@ -1,0 +1,8 @@
+Beginner Series #2 Clock
+https://www.codewars.com/users/Kseniia%20Sydorenko/completed
+
+
+function past(h, m, s){
+  //#Happy Coding! ^_^
+  return (h*3600+m*60+s)*1000;
+}
