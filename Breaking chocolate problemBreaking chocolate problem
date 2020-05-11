@@ -1,0 +1,10 @@
+Breaking chocolate problem
+https://www.codewars.com/users/Kseniia%20Sydorenko/completed_
+function breakChocolate(n,m) { 
+if (n * m - 1 > 0) {
+return n*m-1;}
+ else{
+return 0;
+ 
+ }
+}
