@@ -1,0 +1,6 @@
+Grasshopper - Basic Function Fixer
+https://www.codewars.com/users/Kseniia%20Sydorenko/completed_
+function addFive(num) {
+  var total = num + 5
+  return total;
+}
