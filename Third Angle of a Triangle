@@ -1,0 +1,5 @@
+Third Angle of a Triangle
+https://www.codewars.com/users/Kseniia%20Sydorenko/completed_
+function otherAngle(a, b) {
+  return 180 - a - b;
+}
