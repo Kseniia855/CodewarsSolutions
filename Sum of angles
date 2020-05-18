@@ -1,0 +1,6 @@
+Sum of angles
+https://www.codewars.com/users/Kseniia%20Sydorenko/completed
+
+function angle(n) {
+  return (n-2)*180;
+}
