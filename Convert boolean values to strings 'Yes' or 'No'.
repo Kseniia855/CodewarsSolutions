@@ -1,0 +1,11 @@
+Convert boolean values to strings 'Yes' or 'No'.
+https://www.codewars.com/users/Kseniia%20Sydorenko/completed
+function boolToWord( bool ){
+ if(typeof(bool)==='boolean'){
+  if (bool === true){
+  return 'Yes';
+    }else{
+      return 'No'
+    }
+   }
+}
