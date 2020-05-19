@@ -1,0 +1,6 @@
+Chuck Norris VII - True or False? (Beginner)
+https://www.codewars.com/users/Kseniia%20Sydorenko/completed
+
+function ifChuckSaysSo(){
+return !true;
+}
