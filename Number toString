@@ -1,0 +1,5 @@
+Number toString.
+https://www.codewars.com/users/Kseniia%20Sydorenko/completed_
+let b = 123;
+a = b.toString();
+
