@@ -1,0 +1,5 @@
+Convert a Boolean to a String.
+https://www.codewars.com/users/Kseniia%20Sydorenko/completed_
+function booleanToString(b){
+  return b.toString();
+}
