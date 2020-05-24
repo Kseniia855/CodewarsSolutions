@@ -1,0 +1,5 @@
+Area of a Square.
+https://www.codewars.com/users/Kseniia%20Sydorenko/completed_.
+function squareArea(A){
+ return +(4* Math.pow(A, 2) / (Math.PI ** 2)).toFixed(2); 
+}
