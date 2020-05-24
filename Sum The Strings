@@ -1,0 +1,5 @@
+Sum The String.
+https://www.codewars.com/users/Kseniia%20Sydorenko/completed_
+function sumStr(a,b) {
+ return Number(a) + Number(b) + '';
+}
