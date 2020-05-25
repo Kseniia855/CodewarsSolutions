@@ -1,0 +1,8 @@
+Century From Year.
+https://www.codewars.com/users/Kseniia%20Sydorenko/completed
+function century(year) {
+  if(year %100 ===0){
+   return Math.trunc(year / 100);
+   }else{
+  return Math.trunc(year / 100) + 1;
+}}
