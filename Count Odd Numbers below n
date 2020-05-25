@@ -1,0 +1,7 @@
+Count Odd Numbers below.
+https://www.codewars.com/users/Kseniia%20Sydorenko/completed
+function oddCount(n){
+if (n%2===0) {
+return n/2;}
+else {
+ret
