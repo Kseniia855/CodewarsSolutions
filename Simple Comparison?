@@ -1,0 +1,8 @@
+Simple Comparison?
+https://www.codewars.com/users/Kseniia%20Sydorenko/completed.
+function add(a, b){
+  a =+a;
+  b =+b;
+  return a === b;
+}             
+ 
