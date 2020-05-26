@@ -1,0 +1,6 @@
+Training JS #6: Basic data types--Boolean and conditional statements if..else.
+https://www.codewars.com/users/Kseniia%20Sydorenko/completed.
+function trueOrFalse(val){
+  if (val)    return 'true';             
+  else     return 'false';
+}
