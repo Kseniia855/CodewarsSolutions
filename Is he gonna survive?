@@ -1,0 +1,5 @@
+Is he gonna survive?
+https://www.codewars.com/users/Kseniia%20Sydorenko/completed
+function hero(bullets, dragons){
+return bullets >= 2 * dragons;
+}
