@@ -1,0 +1,7 @@
+Grasshopper - Grade book.
+function getGrade (s1, s2, s3) {
+let mean = (s1+s2+s3)/3;
+return (mean>=0 && mean<60)?'F':(mean>=60 && mean<70)?'D':(mean>=70 && mean<80)?'C':
+(mean>=80 && mean<90)?'B':(mean>=90 && mean<=100)?'A':'this will never happen';
+   
+}
