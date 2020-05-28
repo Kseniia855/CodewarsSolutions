@@ -1,0 +1,13 @@
+Calculate BMI.
+https://www.codewars.com/users/Kseniia%20Sydorenko/completed.
+function bmi(weight, height) {
+let resultBmi = weight/(height**2);
+if (resultBmi <= 18.5) {
+return 'Underweight'}
+else if (resultBmi > 18.5 && resultBmi <= 25.0){
+return 'Normal'}
+else if (resultBmi > 25.0 && resultBmi <= 30.0){
+return 'Overweight'}
+else if (resultBmi > 30){
+return 'Obese'}
+}
