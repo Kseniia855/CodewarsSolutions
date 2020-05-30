@@ -1,0 +1,18 @@
+Fuel Calculator.
+https://www.codewars.com/users/Kseniia%20Sydorenko/completed.
+function fuelPrice(litres, pricePerLiter) {
+  let priceNoDiscount = litres * pricePerLiter;
+  let discount = calcDiscount(litres);
+  return Math.round((priceNoDiscount-discount)*100)/100;
+  
+}
+
+function calcDiscount(n){
+let discount = 0;
+  (n>=2 && n<=3)?(discount = n * 0.05):
+  (n>=4 && n<=5)?(discount = n * 0.10):
+  (n>=6 && n<=7)?(discount = n * 0.15):
+  (n>=8 && n<=9)?(discount = n * 0.20):
+  (n>=10)?(discount = n * 0.25):discount;
+return discount;
+}
