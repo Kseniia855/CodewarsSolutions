@@ -1,0 +1,11 @@
+Sleigh Authentication.
+https://www.codewars.com/users/Kseniia%20Sydorenko/completed
+
+function Sleigh() {}
+
+Sleigh.prototype.authenticate = function(name, password) {
+
+if (name === 'Santa Claus' && password === 'Ho Ho Ho!') return true;
+else return false;
+  // TODO
+};
