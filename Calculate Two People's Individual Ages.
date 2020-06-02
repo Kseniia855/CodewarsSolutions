@@ -1,0 +1,9 @@
+Calculate Two People's Individual Ages.
+https://www.codewars.com/users/Kseniia%20Sydorenko/completed
+function getAges(sum,difference){
+let a= (difference+sum)/2;
+let b= sum - a;
+if(sum < 0||difference < 0||a<0||b<0)return null;
+else if(a>b)return [a,b];
+else return [a,b];
+};
