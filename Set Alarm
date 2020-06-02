@@ -1,0 +1,8 @@
+Set Alarm.
+https://www.codewars.com/users/Kseniia%20Sydorenko/completed.
+function setAlarm(employed, vacation){
+
+if (employed && !vacation )return true;
+else return false;
+
+}
