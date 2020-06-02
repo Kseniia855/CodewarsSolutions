@@ -1,0 +1,6 @@
+Watermelon.
+https://www.codewars.com/users/Kseniia%20Sydorenko/completed
+function divide(weight){
+if(weight%2===0 && weight>2)return true;
+else return false;
+}
