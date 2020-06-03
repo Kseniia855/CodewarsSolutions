@@ -1,0 +1,5 @@
+Do I get a bonus?
+https://www.codewars.com/users/Kseniia%20Sydorenko/completed
+function bonusTime(salary, bonus) {
+return bonus?'\u00A3'+salary*10:'\u00A3'+salary;
+}
