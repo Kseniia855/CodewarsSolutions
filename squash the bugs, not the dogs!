@@ -1,0 +1,11 @@
+101 Dalmatians - squash the bugs, not the dogs!
+https://www.codewars.com/users/Kseniia%20Sydorenko/completed
+function howManyDalmatians(number){
+let n = number;
+
+var dogs= ["Hardly any", "More than a handful!", "Woah that's a lot of dogs!", "101 DALMATIANS!!!"];
+  
+return (n>=1&&n<=10)?dogs[0]:(n>10&n<=50)?dogs[1]:(n>50&n<=100)?dogs[2]:(n===101 )?dogs[3]:dogs[2];
+  
+
+}
