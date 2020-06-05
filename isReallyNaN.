@@ -1,0 +1,9 @@
+isReallyNaN.
+https://www.codewars.com/users/Kseniia%20Sydorenko/completed
+const isReallyNaN = (val) => {
+if(Number.isNaN(val)){
+  return true;
+  }else {
+ return  false;
+ }
+ }
