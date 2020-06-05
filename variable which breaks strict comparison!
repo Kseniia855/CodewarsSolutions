@@ -1,0 +1,5 @@
+Find variable which breaks strict comparison!
+https://www.codewars.com/users/Kseniia%20Sydorenko/completed
+function findStrangeValue() {
+  return NaN;
+}
