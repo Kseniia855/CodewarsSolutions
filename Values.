@@ -1,0 +1,8 @@
+Invert values.
+https://www.codewars.com/users/Kseniia%20Sydorenko/completed
+function invert(array) {
+for(let i =0; i<array.length;i++){
+  array[i] = array[i] * (-1);
+  }
+   return array;
+}
