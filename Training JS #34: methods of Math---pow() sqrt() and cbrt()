@@ -1,0 +1,6 @@
+Training JS #34: methods of Math---pow() sqrt() and cbrt().
+https://www.codewars.com/users/Kseniia%20Sydorenko/completed
+function cutCube(volume,n){
+  
+return Math.cbrt(n) % 1 === 0 && Math.cbrt(volume / n) % 1 == 0 ;
+}
