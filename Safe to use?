@@ -1,0 +1,8 @@
+Is integer safe to use?
+https://www.codewars.com/users/Kseniia%20Sydorenko/completed
+function SafeInteger(n) {
+if (Number.isSafeInteger(n)){
+return true;
+}else{
+return false;
+}}
