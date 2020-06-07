@@ -1,0 +1,8 @@
+Closest elevator.
+https://www.codewars.com/users/Kseniia%20Sydorenko/completed
+function elevator(left, right, call){
+
+ if(Math.abs(left -call) < Math.abs(right - call))return 'left';
+ else return 'right';
+  
+}
