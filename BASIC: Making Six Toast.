@@ -1,0 +1,6 @@
+BASIC: Making Six Toast.
+https://www.codewars.com/users/Kseniia%20Sydorenko/completed
+function sixToast(num) {
+if(num<6)return 6-num;
+else return num -6;
+}
