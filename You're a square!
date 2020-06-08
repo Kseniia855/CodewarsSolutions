@@ -1,0 +1,5 @@
+You're a square!
+https://www.codewars.com/users/Kseniia%20Sydorenko/completed
+var isSquare = function(n){
+  return Math.sqrt(n)%1===0;
+}
