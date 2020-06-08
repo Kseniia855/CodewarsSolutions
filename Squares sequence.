@@ -1,0 +1,12 @@
+Squares sequence.
+https://www.codewars.com/users/Kseniia%20Sydorenko/completed
+function squares(x, n) {
+  let arr = [];
+  if(n<=0){return []}
+  else {
+    arr.push(x);
+    for(let i = 1; i<n; i++){
+      arr.push(Math.pow(arr[i-1],2));}
+  }
+  return arr;
+}
