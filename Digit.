@@ -1,0 +1,11 @@
+Square Every Digit.
+https://www.codewars.com/users/Kseniia%20Sydorenko/completed
+function squareDigits(num){
+let str ='';
+num = num + '';
+ for(let i=0; i<num.length; i++){
+  str = str + Math.pow(Number(num[i]),2);
+  }
+  return Number(str);
+  
+}
