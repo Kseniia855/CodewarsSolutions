@@ -1,0 +1,7 @@
+All Star Code Challenge #22.
+https://www.codewars.com/users/Kseniia%20Sydorenko/completed
+function toTime(seconds) {
+let hours = Math.trunc(seconds/3600);
+let minutes = Math.trunc((seconds - hours*3600)/60);
+return hours+' hour(s) and '+minutes+' minute(s)';
+}
