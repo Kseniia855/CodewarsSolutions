@@ -1,0 +1,13 @@
+Sum of Minimums!
+function sumOfMinimums(arr) {
+  let sum = 0;
+  let min;
+  for (let i = 0; i<arr.length;i++){
+    min = 0;
+    for (let j = 0; j<arr[i].length; j++){
+        min = (min===0)?arr[i][j]:Math.min(min,arr[i][j]);
+      }
+    sum = sum + min;
+  }
+  return sum;
+}
