@@ -1,0 +1,10 @@
+Find min and max.
+function getMinMax(arr){
+let b= null;
+let c= null;
+for (let i=0; i<arr.length; i++){
+ b= (b===null)?arr[i]:Math.max(arr[i],b);
+ c= (c===null)?arr[i]:Math.min(arr[i],c);
+}
+ return [c,b];
+ }
