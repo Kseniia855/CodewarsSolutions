@@ -1,0 +1,11 @@
+Tortoise racing.
+https://www.codewars.com/users/Kseniia%20Sydorenko/completed
+function race(v1, v2, g) {
+if (v1>=v2){return null}
+else {
+  let t = Math.floor(g/(v2-v1)*3600);
+  let h = Math.trunc(t/3600);
+  let m = Math.trunc((t - h*3600)/60);
+  let s = t - h*3600 - m*60;
+  return [h,m,s];}
+}
