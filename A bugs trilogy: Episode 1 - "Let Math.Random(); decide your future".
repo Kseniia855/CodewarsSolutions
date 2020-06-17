@@ -1,0 +1,15 @@
+A bugs trilogy: Episode 1 - "Let Math.Random(); decide your future".
+https://www.codewars.com/users/Kseniia%20Sydorenko/completed
+function yourFutureCareer(){
+  let career = Math.random()
+    if (career <= 0.32) {
+      return 'FrontEnd Developer';}
+     else if (career <= 0.65 && career > 0.32) 
+      {return  'BackEnd Developer';}
+     else {
+      return 'Full-Stack Developer'
+    }}
+
+console.log(yourFutureCareer());
+
+ Test.expect(yourFutureCareer()==='FrontEnd Developer'||yourFutureCareer()==='BackEnd Developer'||yourFutureCareer()==='Full-Stack Developer');
