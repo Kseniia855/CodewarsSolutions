@@ -1,0 +1,9 @@
+Expressions Matter.
+https://www.codewars.com/users/Kseniia%20Sydorenko/completed
+function expressionMatter(a, b, c) {
+let y= a * (b + c);
+let d = a * b + c;
+let k= a * b * c ;
+let z= a + b * c;
+let p= (a + b) * c;
+let m = a+b+c;
