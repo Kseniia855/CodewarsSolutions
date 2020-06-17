@@ -1,0 +1,5 @@
+Convert to Binary.
+https://www.codewars.com/users/Kseniia%20Sydorenko/completed
+function toBinary(n){
+  return Number(n.toString(2));
+}
