@@ -1,0 +1,6 @@
+Binary Addition.
+https://www.codewars.com/users/Kseniia%20Sydorenko/completed
+function addBinary(a,b) {
+ let c = a + b;
+  return c.toString(2);
+}
