@@ -1,0 +1,9 @@
+Calculate Price Excluding VAT.
+https://www.codewars.com/users/Kseniia%20Sydorenko/completed
+function excludingVatPrice(price){
+
+if(price===null)return -1;
+   else{
+     return +(price*100/115).toFixed(2)
+   }
+ }
