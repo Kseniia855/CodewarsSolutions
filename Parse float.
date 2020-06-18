@@ -1,0 +1,6 @@
+Parse float.
+https://www.codewars.com/users/Kseniia%20Sydorenko/completed
+function parseF(s) {
+if (isNaN(parseFloat(s))===false) return parseFloat(s)
+else return null;
+}
