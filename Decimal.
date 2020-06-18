@@ -1,0 +1,6 @@
+ Decimal.
+ https://www.codewars.com/users/Kseniia%20Sydorenko/completed_
+
+function binToDec(bin){
+return parseInt(bin,2);
+}
