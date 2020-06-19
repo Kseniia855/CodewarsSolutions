@@ -1,0 +1,3 @@
+Filling an array (part 1).
+https://www.codewars.com/users/Kseniia%20Sydorenko/completed_
+const arr = (n=0)=> [...Array(n)].map((_, i)=> i);
