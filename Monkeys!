@@ -1,0 +1,9 @@
+ Monkeys!
+ https://www.codewars.com/users/Kseniia%20Sydorenko/completed_solutions
+ function monkeyCount(n) {
+let arr=[];
+for (let i=1; i<=n; i++){
+ arr.push(i);
+}
+return arr;
+}
