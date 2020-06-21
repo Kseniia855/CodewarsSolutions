@@ -1,0 +1,12 @@
+Is every value in the array an array?
+const arrCheck = value => {
+if (Array.isArray(value)){
+    let temp = true;
+    for(let i =0; i<value.length;i++){
+      temp = temp && Array.isArray(value[i]);
+      }
+      return temp;
+}
+else 
+  {return false;}
+}
