@@ -1,0 +1,5 @@
+What is type of variable?
+function type(value) {
+return {}.toString.call(value).split(' ')[1].toLowerCase().split(']')[0];
+
+}
