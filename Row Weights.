@@ -1,0 +1,11 @@
+Row Weights.
+function rowWeights(array){
+  let  sumOdd =0;
+  let sum = 0;
+  for(let i=0; i< array.length; i++){
+    if(i % 2 ===0){
+    sumOdd = sumOdd + array[i];
+    }else{ sum = sum + array[i];
+  }}
+  return [sumOdd,sum];
+}
