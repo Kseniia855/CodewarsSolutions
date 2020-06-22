@@ -1,0 +1,7 @@
+Find the middle element.
+var gimme = function (inputArray) {
+  return inputArray.indexOf(
+    +inputArray
+      .filter(el =>  el !== Math.min(...inputArray))
+      .filter(el => el !== Math.max(...inputArray)))   
+}
