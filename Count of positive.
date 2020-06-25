@@ -1,0 +1,20 @@
+Count of positives / sum of negatives.
+function countPositivesSumNegatives(input) {
+
+let sump=0;
+let sumn=0;
+
+if (input == null || typeof(input) == 'undefined'){return []}
+
+else{
+      for(let i=0; i<input.length; i++){
+         if(input[i]>0){
+           sump++;
+          }
+         if(input[i]<0){
+           sumn = sumn + input[i];
+          }
+      }
+      return (input.length > 0)?[sump,sumn]:[];
+    }
+}
