@@ -1,0 +1,20 @@
+Rock Off!
+function solve(a, b) {
+
+let alice = 0;
+let bob = 0;
+
+const aliceWon = ': Alice made "Kurt" proud!';
+const bobWon = ': Bob made "Jeff" proud!';
+const draw = ': that looks like a "draw"! Rock on!';
+
+for(let i = 0; i<a.length; i++){
+  if(a[i]>b[i]){alice++}
+  if(a[i]<b[i]){bob++}
+}
+
+if(alice>bob){return alice + ', ' + bob + aliceWon}
+if(alice<bob){return alice + ', ' + bob + bobWon}
+if(alice===bob){return alice + ', ' + bob + draw}
+
+}
