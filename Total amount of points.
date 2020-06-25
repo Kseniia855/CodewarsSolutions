@@ -1,0 +1,15 @@
+Total amount of points.
+function points(games) {
+let arr = [];
+let count = 0;
+ for (let i=0; i<games.length; i++){
+   arr = games[i].split(':');
+     if(+arr[0]>+arr[1]){
+      count = count +3;
+     }
+     if(+arr[0]===+arr[1]){
+      count++;
+     }
+}
+return count;
+}
