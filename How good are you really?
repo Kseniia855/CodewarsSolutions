@@ -1,0 +1,14 @@
+How good are you really?
+function betterThanAverage(classPoints, yourPoints) {
+//variable sum will contain sum of all students' scores
+let sum = 0;
+
+//sum all scores of all students
+for(let i=0; i<classPoints.length; i++){
+  sum = sum + classPoints[i];
+}
+
+//return comparison of your score to an average score of the class
+ return (yourPoints > sum/classPoints.length);
+
+}
