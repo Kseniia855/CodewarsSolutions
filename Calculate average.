@@ -1,0 +1,10 @@
+Calculate average.
+function find_average(array) {
+let av;
+let sum = 0;
+ for(let i=0; i<array.length; i++){
+  sum = sum + array[i];
+   av= sum/ array.length;
+  }
+  return av;
+}
