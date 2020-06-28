@@ -1,0 +1,17 @@
+Divide and Conquer.
+function divCon(x){
+ let sumn = 0;
+ let sum = 0;
+ let a;
+for(let i=0; i<x.length; i++){
+console.log(typeof(x[i]));
+ if(typeof(x[i])==='number'){
+    sumn= sumn+ x[i];
+ }
+ else {
+    a = Number(x[i]);
+    sum = sum + a;
+ }
+}
+return sumn-sum;
+}
