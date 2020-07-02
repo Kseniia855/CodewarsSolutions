@@ -1,0 +1,5 @@
+Math operations.
+function iceBrickVolume(radius, bottleLength, rimLength) {
+  // Your code should be here ;)
+  return Math.round(Math.sqrt((2*radius)**2/2)**2*(bottleLength-rimLength));
+}
