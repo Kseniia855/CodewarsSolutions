@@ -1,0 +1,4 @@
+Math.roundTo = function (number, precision) {
+ let helper = Math.pow(10,precision);
+ return Math.round(number*helper)/helper;
+}
